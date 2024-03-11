@@ -45,7 +45,7 @@ class Test_validate:
             admin.validate_headers()
 
             display_headers.is_displayed()
-            assert self.current_url == Get_url.Admin_page_Title, "go and check the TC_PIM_02"
+            assert self.current_url == Get_url.admin_page_url, "go and check the TC_PIM_02"
             print("Admin Page Header successfully displayed")
 
         except Exception as e:
@@ -68,7 +68,7 @@ class Test_validate:
             admin.validate_side_menu()
 
             display_side_menu.is_displayed()
-            assert self.current_url == Get_url.Admin_page_Title, "go and check the TC_PIM_03"
+            assert self.current_url == Get_url.admin_page_url, "go and check the TC_PIM_03"
             print("Admin Page side-menu successfully displayed")
 
         except Exception as e:
