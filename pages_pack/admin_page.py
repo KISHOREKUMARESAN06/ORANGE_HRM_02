@@ -7,7 +7,6 @@ from locators.all_locators import Locators
 class Admin_page:
 
     def __init__(self, driver):
-        super().__init__()
         self.driver = driver
 
     def click_admin_module(self):
@@ -79,29 +78,4 @@ class Admin_page:
                 # Get the text inside the span
                 span_text = span.text
                 print(span_text)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
