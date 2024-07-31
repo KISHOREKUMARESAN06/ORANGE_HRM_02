@@ -5,12 +5,9 @@ from selenium import webdriver
 from locators.all_locators import Locators
 
 
-
-
 class Do_Login:
 
     def __init__(self, driver):
-        super().__init__()
         self.driver = driver
 
     def do_login(self, username, password):
@@ -29,6 +26,4 @@ class Do_Login:
         except:
             pass
         driver.implicitly_wait(20)
-
-
 
