@@ -7,7 +7,6 @@ from locators.all_locators import Locators
 class Reset_pass:
 
     def __init__(self, driver):
-        super().__init__()
         self.driver = driver
 
     def reset_password(self, username):
